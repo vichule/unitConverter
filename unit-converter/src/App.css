@@ -1,0 +1,303 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+
+    background-color: white;
+    min-height: 3vh;
+    max-height: 5vh;
+    font-size: 13px;
+    color: #2e0039;
+    font-family: system-ui;
+    font-weight: 800;
+    display: flex;
+    border-bottom: 3px solid lightgrey;
+    margin-bottom: 50px;
+}
+  
+
+.App-link {
+  color: #000000;
+}
+
+.convert-box{
+
+  background-color: #2e0039;
+  color: white;
+  width: 40%;
+  border-radius: 20px;
+  height: 150px;
+
+  
+  font-size: 13px;
+  font-family: system-ui;
+  text-align: left;
+  margin-left: 30%;
+  padding: 15px;
+  box-shadow: 1px 2px 9px black;
+  
+}
+
+.convert-form{
+  background-color: #2e0039;
+  border: none;
+  color: white;
+  display: flex;
+  
+}
+
+body{
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  background-color: #2e0039;
+  color: white;
+  margin-top: auto;
+  font-size: x-small;
+  height: 22px;
+  padding-top: 9px;
+  position: fixed;
+  width: 195vh;
+  bottom: 0vh;
+  left: 0vh;
+  right: 0vh;
+}
+
+img{
+  max-width: 20px;
+  max-height: 20px;
+  color: white;
+  margin-right: 15px;
+  
+}
+
+/*.img2{
+  max-width: 20px;
+  max-height: 20px;
+  color: white;
+  margin-right: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}*/
+
+button{
+  background: none;
+  border: none;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.post-header{
+
+  display: inline-flex;
+  margin-left: 31%;
+}
+
+.select{
+  width: 40%;
+  margin-left: 20px;
+  border-style: none;
+  background: none;
+  
+}
+
+.totalConvert{
+  font-size: 17px;
+  /* text-align: end; */
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -10px;
+}
+
+.saved{
+  
+  width: 60vh;
+  padding: 5px;
+  position: absolute;
+  left: 35%;
+  margin-top: 5%;
+}
+
+.favConvert {
+  display: table;
+  background-color: lightgrey;
+  margin-bottom: 4%;
+  border-radius: 9px;
+  padding-top: 2vh;
+  height: 4vh;
+}
+
+.btnDelete {
+  margin-top: 0vh;
+  margin-right: 1vh;
+}
+
+/*.btnRev{
+  position: absolute;
+  left: 43vh;
+  top: 20vh;
+}*/
+
+.inputUnit{
+  background-color: rgb(46, 0, 57);
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  border-left: none;
+  border-image: initial;
+  text-align: right;
+  color: white;
+  margin-left: 40px;
+}
+
+
+.savedTittle{
+  font-family: system-ui;
+  font-weight: 800;
+  font-size: 15px;
+  color: #676767;
+  text-align: left;
+}
+
+.columns{
+  padding: 0;
+  display: grid;
+}
+
+
+@media screen and (max-width: 650px) /*  desde un ancho de 320px hasta un ancho de 1920px*/{
+
+  .convert-box {
+    background-color: #2e0039;
+    color: white;
+    width: 50vh;
+    border-radius: 20px;
+    height: 29vh;
+    font-size: 13px;
+    font-family: system-ui;
+    text-align: left;
+    margin-left: 4%;
+    padding: 15px;
+    box-shadow: 1px 2px 9px black;
+}
+
+
+
+
+.totalConvert {
+  font-size: 17px;
+  /* text-align: end; */
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -25px;
+}
+
+button {
+  background: none;
+  border: none;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+  margin-top: 19px;
+}
+
+.saved {
+  width: 55vh;
+  padding: 5px;
+  position: absolute;
+  left: 4%;
+  margin-top: 5%;
+}
+
+.select {
+  width: 75%;
+  margin-left: 0px;
+  border-style: none;
+  background: none;
+}
+
+.convert-form {
+  background-color: #2e0039;
+  border: none;
+  color: white;
+  display: block;
+}
+
+.inputUnit{
+  background-color: rgb(46, 0, 57);
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  border-left: none;
+  border-image: initial;
+  text-align: right;
+  color: white;
+  margin-left: 0px;
+  width: 38vh;
+  margin-top: 4vh;
+}
+
+.totalConvert {
+  font-size: 17px;
+  /* text-align: end; */
+  position: absolute;
+  margin-left: 29vh;
+  margin-top: -25px;
+}
+
+.favConvert {
+  display: table;
+  background-color: lightgrey;
+  margin-bottom: 4%;
+  border-radius: 9px;
+  padding-top: 2vh;
+  height: 4vh;
+}
+
+
+.btnDelete {
+  margin-top: 0vh;
+  margin-right: 1vh;
+}
+
+.footer {
+  position: fixed;
+  width: 59vh;
+  bottom: 0vh;
+  left: 0vh;
+  right: 0vh;
+}
+
+.btnRev{
+  position: absolute;
+  left: 43vh;
+  top: 20vh;
+}
+
+.post-header {
+  display: inline-flex;
+  margin-left: 0;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+}
+
+@media screen and (max-width: 1920px) /*  desde un ancho de 320px hasta un ancho de 1920px*/{
+
+  
+
+}
